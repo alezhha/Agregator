@@ -41,7 +41,7 @@
             <p>Сервисные центры техники в Киеве</p>
             <span>Подбор сервисных центров по вашему производителю </span>
           </div>
-          <img src="/media/ИЗОБРАЖЕНИЕ 1.png" alt="">
+          <img src="./media/ИЗОБРАЖЕНИЕ 1.png" alt="">
         </div>
         <div class="hero__second__row">
           <div class="hero__cards">
