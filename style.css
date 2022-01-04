@@ -1,0 +1,271 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/media/Group\ 1.png");
+  background-color: #EFEFEF;
+  background-position: top;
+  background-size: 130%;
+}
+
+a {
+  text-decoration: none;
+  color: #FF8522;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* Font */
+
+* {
+  font-family: 'Helvetica Neue Cyr Thin';
+  src: url('HelveticaNeueCyr-Thin.eot');
+  src: url('HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+  url('HelveticaNeueCyr-Thin.woff') format('woff'),
+  url('HelveticaNeueCyr-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+/* Header */
+
+header {
+  background: #EFEFEF;
+  box-shadow: 0px 10px 25px rgba(197, 197, 197, 0.47);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.0% 0;
+}
+
+.header__inner ul {
+  list-style: none;
+  display: flex;
+  width: 27.5%;
+  justify-content: space-between;
+}
+
+.header__inner ul li a {
+  color: #000000;
+}
+
+
+
+.header__inner div a {
+  font-size: 18px;
+}
+
+
+.header__inner form {
+  width: 27.5%;
+  border: 1px white solid;
+  box-shadow: inset -7px -7px 16px #FFFFFF, inset 7px 7px 16px rgba(162, 162, 162, 0.3);
+  border-radius: 50px;
+  padding: 12px 20px;
+}
+
+.header__inner form input {
+  border: none;
+  background-color: transparent;
+  width: 92%;
+}
+
+/* Hero */
+
+.hero__first__row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.hero__text p {
+  color: #4E4E4E;
+  font-weight: 550;
+  font-size: 56px;
+  line-height: 110%;
+  margin-bottom: 30px;
+}
+
+.hero__text span {
+  color: #7A7A7A;
+  font-size: 26px;
+  line-height: 130%;
+}
+
+
+
+.hero__second__row {
+  margin-top: 6%;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.hero__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__card {
+  background: #EBEBEB;
+  border: 1px solid #FFFFFF;
+  box-shadow: -4px -4px 18px #FFFFFF, 4px 4px 18px rgba(175, 175, 175, 0.6);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  padding: 10px 20px;
+}
+
+.hero__card p {
+  margin-left: 10%;
+}
+
+
+
+.hero__buttons {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__button__first, .hero__button__second {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.hero__button__second {
+  border: 1px white solid;
+  background: linear-gradient(91.35deg, #FF0000 -44.12%, #FE7303 77.81%);
+  margin-left: -1%;
+}
+
+/* Search */
+
+.section__search {
+  margin-top: 10%;
+}
+
+
+
+.search__inner {
+  text-align: center;
+}
+
+.search__inner p {
+  font-size: 56px;
+  font-weight: 550;
+  margin-bottom: 40px;
+  color: #4E4E4E;
+}
+
+.search__inner form {
+  width: 100%;
+  border: 1px white solid;
+  box-shadow: inset -7px -7px 16px #FFFFFF, inset 7px 7px 16px rgba(162, 162, 162, 0.3);
+  border-radius: 50px;
+  padding: 12px 20px;
+}
+
+.search__inner form input {
+  border: none;
+  background-color: transparent;
+  width: 98%;
+}
+
+
+
+.search__upper__text {
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.alphabet {
+  font-size: 16px;
+  display: flex;
+  width: 1000px;
+}
+
+
+
+.search__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.search__cards a {
+  margin-bottom: 20px;
+}
+
+.search__card {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  background-color: #EBEBEB;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+
+.search__card p {
+  font-size: 16px;
+  width: 135px;
+  text-align: start;
+  position: relative;
+  top: 20px;
+}
+
+
+
+.search__button {
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  display: flex;
+  width: 17%;
+  padding: 21px;
+  position: relative;
+  align-items: center;
+
+  color: #FFF;
+  background-clip: padding-box; 
+  border: solid 3px transparent;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.search__button:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -3px;
+    border-radius: inherit;
+    background: linear-gradient(to right, red, orange);
+}
+
+.search__inner button p {
+  color: #4E4E4E;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
